@@ -36,7 +36,7 @@ extern "C" {
 
 //#define BBBIO_GPIO0_MODULE	(BBBIO_GPIO_MODULE << 8 | BBBIO_GPIO_0)
 
-
+extern volatile unsigned int *cm_per_addr;
 
 
 // uncomment to enable debug
